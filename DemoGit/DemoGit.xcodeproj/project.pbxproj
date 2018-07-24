@@ -12,6 +12,10 @@
 		83E190E32106DABC00ABD94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E190E12106DABC00ABD94D /* Main.storyboard */; };
 		83E190E52106DABC00ABD94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E190E42106DABC00ABD94D /* Assets.xcassets */; };
 		83E190E82106DABC00ABD94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E190E62106DABC00ABD94D /* LaunchScreen.storyboard */; };
+		83E190F32106DCC500ABD94D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E190EF2106DCC400ABD94D /* Result.swift */; };
+		83E190F42106DCC500ABD94D /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E190F02106DCC400ABD94D /* NetWork.swift */; };
+		83E190F52106DCC500ABD94D /* CallAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E190F12106DCC400ABD94D /* CallAPI.swift */; };
+		83E190F62106DCC500ABD94D /* Api_Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E190F22106DCC400ABD94D /* Api_Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		83E190E42106DABC00ABD94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83E190E72106DABC00ABD94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E190E92106DABC00ABD94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E190EF2106DCC400ABD94D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		83E190F02106DCC400ABD94D /* NetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		83E190F12106DCC400ABD94D /* CallAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAPI.swift; sourceTree = "<group>"; };
+		83E190F22106DCC400ABD94D /* Api_Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_Name.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		83E190DC2106DABC00ABD94D /* DemoGit */ = {
 			isa = PBXGroup;
 			children = (
+				83E190F22106DCC400ABD94D /* Api_Name.swift */,
+				83E190F12106DCC400ABD94D /* CallAPI.swift */,
+				83E190F02106DCC400ABD94D /* NetWork.swift */,
+				83E190EF2106DCC400ABD94D /* Result.swift */,
 				83E190DD2106DABC00ABD94D /* AppDelegate.swift */,
 				83E190DF2106DABC00ABD94D /* ViewController.swift */,
 				83E190E12106DABC00ABD94D /* Main.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E190F32106DCC500ABD94D /* Result.swift in Sources */,
+				83E190F52106DCC500ABD94D /* CallAPI.swift in Sources */,
 				83E190E02106DABC00ABD94D /* ViewController.swift in Sources */,
+				83E190F42106DCC500ABD94D /* NetWork.swift in Sources */,
 				83E190DE2106DABC00ABD94D /* AppDelegate.swift in Sources */,
+				83E190F62106DCC500ABD94D /* Api_Name.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
