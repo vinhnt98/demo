@@ -13,4 +13,6 @@ class CallAPI: NSObject {
     func getImageRequest(param: [String: Any]?, callBack: CompletionRequest) {
         NetWork.shared.requestWith(method: .Post, apiName: ApiNameImageRequest, param: param, callBack: callBack)
     }
+    
+    // new
 }
