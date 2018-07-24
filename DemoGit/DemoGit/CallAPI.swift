@@ -14,5 +14,5 @@ class CallAPI: NSObject {
         NetWork.shared.requestWith(method: .Post, apiName: ApiNameImageRequest, param: param, callBack: callBack)
     }
     
-    // new
+    // new a
 }
